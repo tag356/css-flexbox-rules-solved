@@ -24,6 +24,63 @@ p {
 
 /* 👇👇👇  ADD YOUR FORM STYLES BENEATH  👇👇👇*/
 
+.content {
+  display: flex;
+  gap: 30px;
+  border: solid black 30px;
+}
+
+.form-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: solid black 1px;
+}
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: solid black 1px;
+}
+.form-input-control {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-submit-control {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.form-group-horizontal-control {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.form-input-control {
+  width: 100%;
+}
+
 form {
   border: 1px solid #a9a9a9;
   padding: 20px;
